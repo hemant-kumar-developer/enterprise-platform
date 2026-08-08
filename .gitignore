@@ -1,0 +1,12 @@
+*/node_modules/*
+node_modules/*
+.turbo
+.github
+apps/frontend/*/node_modules/*
+apps/frontend/*/dist/*
+apps/frontend/*/.turbo/*
+
+
+apps/services/*/node_modules/*
+apps/services/*/dist/*
+apps/services/*/.turbo/*

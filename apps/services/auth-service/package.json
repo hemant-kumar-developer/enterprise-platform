@@ -1,0 +1,23 @@
+{
+  "name": "@enterprise-platform/auth-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/main.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/node": "^22.10.1",
+    "tsx": "^4.17.0",
+    "typescript": "^5.6.3"
+  }
+}

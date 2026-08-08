@@ -1,0 +1,27 @@
+{
+  "name": "@enterprise-platform/api-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/main.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.0",
+    "helmet": "^8.0.1",
+    "morgan": "^1.10.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.0",
+    "@types/express": "^5.0.1",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^22.10.1",
+    "typescript": "^5.6.3",
+    "tsx": "^4.17.0"
+  }
+}
