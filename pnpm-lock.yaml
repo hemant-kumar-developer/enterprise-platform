@@ -117,8 +117,8 @@ importers:
         specifier: ^8.0.1
         version: 8.3.0
       morgan:
-        specifier: ^1.10.0
-        version: 1.11.0
+        specifier: ^1.12.0
+        version: 1.12.0
       zod:
         specifier: ^3.23.0
         version: 3.25.76
@@ -790,6 +790,7 @@ packages:
   eslint@9.39.5:
     resolution: {integrity: sha512-DgZS62aPLXKlnxILS/AYCoRvHaZeXceIzlXPkkGGzJWSow1aEk0lbTlxUSlyjC8jcaKxAdOnTDz+o1JFSBsyjw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -1125,8 +1126,8 @@ packages:
   minimatch@3.1.5:
     resolution: {integrity: sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==}
 
-  morgan@1.11.0:
-    resolution: {integrity: sha512-zSkVu3t18r39pw4ixfBKvfZi3y2UOqr7d4WYwcj3m8nXpEQK4rPO6GLzs/CExoRgmX3y9EjmmcXqv6jq0SK46g==}
+  morgan@1.12.0:
+    resolution: {integrity: sha512-OHpTRQwn2ezasILW8iKe+Yww1XsfWsZIpUOLF7RDb2g5GwO3trPaRwi7+8BDiJ7HFx2Kg2mfUdCBcVhwYlOz2g==}
     engines: {node: '>= 0.8.0'}
 
   ms@2.0.0:
@@ -2281,7 +2282,7 @@ snapshots:
     dependencies:
       brace-expansion: 1.1.18
 
-  morgan@1.11.0:
+  morgan@1.12.0:
     dependencies:
       basic-auth: 2.0.1
       debug: 2.6.9
